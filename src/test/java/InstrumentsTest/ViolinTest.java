@@ -40,7 +40,7 @@ public class ViolinTest {
 
     @Test
     public void canGetBow(){
-        assertEquals("BigBow", bow.getName());
+        assertEquals("BigBow", violin.getBow().getName());
     }
 
     @Test
